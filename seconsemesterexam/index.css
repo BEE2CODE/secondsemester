@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trirong';
+}
+body{
+    background-attachment: fixed;
+    background-image: url("./assets/background-img.webp");
+    background-size: cover;
+
+}
+.container{
+    background: rgb(200, 205, 139);
+    height: 80vh;
+    max-width: 30%;
+    border: 3px solid black;
+    border-radius: 12px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.wrap{
+    padding: 70px 0;
+    text-align: center;
+    
+    
+}
+h2{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    
+}
+button{
+    font-family: 'Trirong';
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+#increment-btn{
+    background: rgb(16, 127, 175);
+}
+#decrement-btn{
+    background: rgb(198, 24, 24);
+}
+#save-btn{
+    background: rgb(22, 150, 22);
+
+}
+ p{
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+} 
+
+
+#increment-btn:hover{
+    background: rgb(61, 147, 184);
+    font-weight: 900;
+}
+#decrement-btn:hover{
+    background: rgb(209, 89, 89);
+    font-weight: 900;
+}
+#save-btn:hover{
+    background: rgb(86, 159, 86);
+    font-weight: 900;
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+      .container{
+        background: rgb(200, 205, 139);
+        height: 60vh;
+        max-width: 80%;
+        border: 3px solid black;
+        border-radius: 12px;
+        margin: 90px auto;
+        padding: 50px 0;
+        
+    }
+    
+   
+  }
